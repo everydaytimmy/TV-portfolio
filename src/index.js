@@ -44,11 +44,6 @@ ReactDOM.render(
         exact
         render={props => <Landing {...props} />}
       />
-      <Route
-        path="/register-page"
-        exact
-        render={props => <Register {...props} />}
-      />
       <Redirect to="/" />
     </Switch>
   </BrowserRouter>,
