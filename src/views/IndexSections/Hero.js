@@ -48,15 +48,14 @@ class Hero extends React.Component {
                   <Col className="text-center" lg="6">
                     <img
                       alt="..."
-                      className="img-fluid"
-                      src={reactWhite}
-                      style={{ width: "200px" }}
+                      className="img-fluid rounded-circle shadow"
+                      src='profile.png'
+                      style={{ width: "300px" }}
                     />
                     <p className="lead text-white">
-                      A beautiful Design System for Bootstrap 4. It's Free and
-                      Open Source.
+                      My name is Tim - Yippie!!
                     </p>
-                    <div className="btn-wrapper mt-5">
+                    {/* <div className="btn-wrapper mt-5">
                       <Button
                         className="btn-white btn-icon mb-3 mb-sm-0"
                         color="default"
@@ -83,10 +82,10 @@ class Hero extends React.Component {
                           on Github
                         </span>
                       </Button>
-                    </div>
-                    <div className="mt-5">
+                    </div> */}
+                    {/* <div className="mt-5">
                       <small className="text-white font-weight-bold mb-0 mr-2">
-                        *proudly coded by
+                        *proudly modified by
                       </small>
                       <img
                         alt="..."
@@ -94,7 +93,7 @@ class Hero extends React.Component {
                         style={{ height: "28px" }}
                         src={creative}
                       />
-                    </div>
+                    </div> */}
                   </Col>
                 </Row>
               </div>
